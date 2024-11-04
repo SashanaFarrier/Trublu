@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+h3 {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 3em;
+}
+
+#myChart {
+    max-width: 600px !important;
+
+}
+
+.currency-info p {
+    margin: 0px;
+    padding: 1em;
+    background: #6e6d6d;
+}
+
+.currency-info p:nth-child(2n) {
+    background: #cecece;
+}
